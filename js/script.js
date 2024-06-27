@@ -10,12 +10,12 @@ document.addEventListener("DOMContentLoaded", () => {
             if (isExpanded) {
                 pergunta.setAttribute("aria-expanded", "false");
                 resposta.setAttribute("aria-hidden", "true");
-                img.setAttribute("src", "../assets/images/icon-plus.svg");
+                img.setAttribute("src", "./assets/images/icon-plus.svg");
                 img.setAttribute("alt", "Expandir");
             } else {
                 pergunta.setAttribute("aria-expanded", "true");
                 resposta.setAttribute("aria-hidden", "false");
-                img.setAttribute("src", "../assets/images/icon-minus.svg");
+                img.setAttribute("src", "./assets/images/icon-minus.svg");
                 img.setAttribute("alt", "Esconder");
             }
         });
